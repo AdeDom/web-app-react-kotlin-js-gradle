@@ -19,6 +19,12 @@ dependencies {
     implementation("org.jetbrains:kotlin-react-router-dom:5.1.2-pre.113-kotlin-1.4.0")
     implementation("org.jetbrains:kotlin-redux:4.0.0-pre.113-kotlin-1.4.0")
     implementation("org.jetbrains:kotlin-react-redux:5.0.7-pre.113-kotlin-1.4.0")
+
+    //Video Player (chapter 7)
+    implementation(npm("react-player", "~2.6.0"))
+
+    //Share Buttons (chapter 7)
+    implementation(npm("react-share", "~4.2.1"))
 }
 
 kotlin {

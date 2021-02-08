@@ -1,8 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="web-app-react-kotlin-js-gradle-1.0-SNAPSHOT">
     <output-path>D:\IntelliJIDEA\web-app-react-kotlin-js-gradle\build\libs</output-path>
-    <root id="archive" name="web-app-react-kotlin-js-gradle-1.0-SNAPSHOT.jar">
-      <element id="module-output" name="web-app-react-kotlin-js-gradle.main" />
-    </root>
+    <root id="archive" name="web-app-react-kotlin-js-gradle-1.0-SNAPSHOT.jar" />
   </artifact>
 </component>
