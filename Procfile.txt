@@ -1,1 +1,1 @@
-web: build/distributions
+web: bundle exec reactkotlinjs server -p $PORT
