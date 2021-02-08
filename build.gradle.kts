@@ -52,5 +52,5 @@ kotlin {
 
 // Heroku Deployment (chapter 9)
 tasks.register("stage") {
-    dependsOn("installDist")
+    dependsOn("build")
 }
