@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output-test url="file://$MODULE_DIR$/../../build/js/packages/web-app-react-kotlin-js-gradle-test/kotlin" />
+    <output-test url="file://$MODULE_DIR$/../../build/js/packages/main-test/kotlin" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/kotlin" type="kotlin-test" />
@@ -9,8 +9,8 @@
     </content>
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="web-app-react-kotlin-js-gradle.main" scope="TEST" />
-    <orderEntry type="module" module-name="web-app-react-kotlin-js-gradle.main" scope="RUNTIME" />
+    <orderEntry type="module" module-name="web-app-react-kotlin-js-gradle.main.main" scope="TEST" />
+    <orderEntry type="module" module-name="web-app-react-kotlin-js-gradle.main.main" scope="RUNTIME" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -165,5 +165,5 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:kotlin-css-js:1.0.0-pre.113-kotlin-1.4.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu-js:0.14.4" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="web-app-react-kotlin-js-gradle.main" />
+  <component name="TestModuleProperties" production-module="main.main" />
 </module>
