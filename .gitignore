@@ -1,4 +1,7 @@
-# Project exclude paths
-/.gradle/
-/build/
-/build/js/packages/reactkotlinjs/kotlin/
+/.gradle
+/.idea
+/out
+/build
+*.iml
+*.ipr
+*.iws
