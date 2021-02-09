@@ -51,5 +51,5 @@ kotlin {
 }
 
 task("stage") {
-    dependsOn("installDist")
+    dependsOn("build")
 }
