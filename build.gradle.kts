@@ -50,16 +50,6 @@ kotlin {
     }
 }
 
-task("copyToLib") {
-    doLast {
-        copy {
-            into("$buildDir/libs")
-            from(configurations.compileOnly)
-        }
-    }
-}
-
 task("stage") {
-    dependsOn.add("build")
-    dependsOn.add("copyToLib")
+    dependsOn("build")
 }
