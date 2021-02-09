@@ -1,1 +1,1 @@
-web: build/install/reactkotlinjs/bin/reactkotlinjs
+web: build/distributions
