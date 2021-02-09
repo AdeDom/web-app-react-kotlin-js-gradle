@@ -1,1 +1,1 @@
-web: java -jar build/libs/reactkotlinjs-1.0-SNAPSHOT.jar
+web: java -jar build/libs/reactkotlinjs-js-1.0-SNAPSHOT-sources.jar
