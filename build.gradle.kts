@@ -50,9 +50,16 @@ kotlin {
     }
 }
 
-// Heroku Deployment (chapter 9)
-tasks.register("stage") {
-    dependsOn("build")
+task("copyToLib") {
+    doLast {
+        copy {
+            into("$buildDir/libs")
+            from(configurations.compileOnly)
+        }
+    }
 }
 
-kotlin.js().browser { }
+task("stage") {
+    dependsOn.add("build")
+    dependsOn.add("copyToLib")
+}
