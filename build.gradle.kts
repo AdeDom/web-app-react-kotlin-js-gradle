@@ -49,7 +49,3 @@ kotlin {
         }
     }
 }
-
-task("stage") {
-    dependsOn("build")
-}
